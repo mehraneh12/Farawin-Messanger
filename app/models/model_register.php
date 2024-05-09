@@ -14,8 +14,7 @@ class model_register extends model{
             $params=array($post['username'],md5($post['password']),self::jalali_date(format :"Y/m/d"));
         }$this->doQuery($sql,$params);
     }
-}
-=======
+
     function insert_data($post)
     {
         $sql = "SELECT * FROM tbl_users WHERE username=?";
@@ -37,4 +36,3 @@ class model_register extends model{
     }
 
 }
->>>>>>> d681531b2d83c682e208a6083c89acb2e9199b95
