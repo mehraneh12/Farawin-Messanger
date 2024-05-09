@@ -16,7 +16,7 @@ function index(){
 function insert_data(){
     $this->model->insert($_POST);
 }
-}...
+}
 ?>
 =======
 
