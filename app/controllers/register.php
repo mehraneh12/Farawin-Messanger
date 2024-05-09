@@ -21,3 +21,4 @@ class register extends  Controller
     }
 
 }
+.......
