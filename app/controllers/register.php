@@ -7,6 +7,7 @@ class register extends controller{
         header("Location:".URL);
     }
 }
+
 function index(){
     $this->view(viewUrl:'register/index');
 }
