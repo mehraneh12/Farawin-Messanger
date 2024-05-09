@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -47,6 +46,3 @@
         <script src="" async defer></script>
     </body>
 </html> 
-=======
-hello world!
->>>>>>> d681531b2d83c682e208a6083c89acb2e9199b95

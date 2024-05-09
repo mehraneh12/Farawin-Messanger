@@ -1,17 +1,9 @@
 <?php
-<<<<<<< HEAD
 class model_register extends model{
-=======
-
-class model_register extends model
-{
->>>>>>> d681531b2d83c682e208a6083c89acb2e9199b95
     function __construct()
     {
         parent::__construct();
-    }
-<<<<<<< HEAD
-    
+    }    
     
     function insert($post){
         $sql="SELECT * FROM register WHERE username=? ";
