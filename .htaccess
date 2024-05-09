@@ -5,7 +5,11 @@ Options -Indexes
 RewriteEngine On
 
 RewriteCond %{HTTPS} off
+<<<<<<< HEAD
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+=======
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+>>>>>>> b45b36b (first Initial)
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
